@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>snow</title>
+	<link rel="icon" href="icon.icon">
+	<script src="http://www.jq22.com/jquery/jquery-1.9.1.js"></script>
+	<script src="js/snow.js"></script>
+	<!-- 调用snow函数 -->
+	<script>
+		$(function(){
+			$('body').snow({
+				fadecolor: '#fff', //雪花颜色
+				minSize: 10, //雪花最小尺寸
+				maxSize: 40,// 雪花最大尺寸
+				rate: 200//雪花出现频率，毫秒，值越小雪花出现越快
+			});
+		});
+	</script>
+</head>
+<body>
+	<img src="img/background.jpg" style="width:100%">
+</body>
+</html>
